@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-This app shows your a dog photo when you click a button.
+This app shows you a dog photo when you click a button. It is available at [Daily Dog Photo](https://daily-dog-photo.netlify.app).
 
 ## API
 
