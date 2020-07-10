@@ -1,9 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-##Description
+## Description
 
 This app shows your a dog photo when you click a button.
+
+## API
+
+This app pulls a photo from the [TheDogAPI](https://thedogapi.com/).
 
 
 ## Available Scripts
