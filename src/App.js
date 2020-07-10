@@ -42,7 +42,7 @@ class App extends Component {
 	render() {
 		return (
 				<div className="container">
-					<button onClick={() => this.showPhoto()}> Get your daily dog meme </button>
+					<button onClick={() => this.showPhoto()}> Get your own dog meme </button>
 						<div className="container2">
 							<div className="image">
 								{this.state.refreshPhoto  ?
