@@ -15,7 +15,7 @@ class App extends Component {
 
 	showPhoto() {
 		function dogMemeMessage ()  {
-			const myArray = ["hi", "bye", "wow", "nice", "plz", "hey"];
+			const myArray = ["hi", "bye", "wow", "nice", "plz", "hey", "why", "really", "omg", "scared", "very", "so great", "such dog", "bow wow", "woof", "super", "much dog"];
 			let message = myArray[Math.floor(Math.random()*myArray.length)];
 			return message;
 		}
