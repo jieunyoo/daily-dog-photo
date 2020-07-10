@@ -8,7 +8,8 @@ ReactDOM.render(
   <React.StrictMode>
 
 	<div class="header"> 
-		<h1> Get your daily dog photo </h1>
+		<h1> Get your daily dog meme </h1>
+		<h4> Click for a dog meme </h4>
 	</div>
     <App />
   </React.StrictMode>,
