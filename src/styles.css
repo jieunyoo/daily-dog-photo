@@ -23,6 +23,9 @@ html{
  	font-size: 1.6rem;
  }
 
+ h1{
+	font-size:5rem;
+ }
 
 .header{
 	padding-top:50px;
@@ -36,15 +39,21 @@ html{
 
  .container {
 	 max-width: 1000px;
-	 padding: 100px;
+	 padding: 50px;
 	 margin: 0 auto;
 	 display:block;
 	 text-align:center;
  }
 
+ .container2 {
+	 max-width: 1000px;
+	 padding: 50px 10px 10px 10px;
+	 margin: 0 auto;
+	 display:block;
+	 text-align:center;
+ }
 img {
-	padding-top:150px;
-
+	padding-top:75px;
 	display:block;
 }
  img.resize {
@@ -77,4 +86,28 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+.container2 .top-left {
+	position: absolute;
+	top:8px;
+	bottom:16px;
+}
+
+.image {
+	positiOn: relative
+}
+
+.text {
+	position: absolute;
+	z-index:999;
+	margin: 0 auto;
+	left: 0;
+	right:0;
+	top:40%;
+	text-align:left;
+	width:60%;
+	color:white;
+	font-weight:bold;
+	font-size:8em;
 }

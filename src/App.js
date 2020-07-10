@@ -5,7 +5,9 @@ class App extends Component {
 	constructor() {
 		super();
 		this.state = {
-			photos: [], refreshPhoto:false
+			photos: [], 
+			refreshPhoto:false,
+			message: ''
 		};
     	this.showPhoto = this.showPhoto.bind(this);
 	}
@@ -20,23 +22,33 @@ class App extends Component {
 				}
 				return response.json()
 					.then(allData => {
-						this.setState( {photos:allData});
-
+						this.setState( {photos:allData, message:'hi'});
 					})
 					.catch(err => {
 						throw Error(err.message);
 					});
 				});
+	
+	}
+
+	sayHello() {
 	}
 
 	render() {
 		return (
 				<div className="container">
+		
+				
+					<button onClick={() => this.showPhoto()}> Get your daily dog photo </button>
+						<div className="container2">
 
-					<button onClick={() => this.showPhoto()}> See a dog picture </button>
+			<div className="image">
 						{this.state.refreshPhoto  ?
- 						<PhotoContainer photos={this.state.photos} /> : this.setState({refreshPhoto:true })
-						}
+ 						<PhotoContainer photos={this.state.photos} /> : this.setState({refreshPhoto:true})
+						} 
+			<div class="text"> {this.state.message} </div>
+			</div>
+			</div>
 				</div>
 		)
 	}
